@@ -2,7 +2,7 @@
   'use strict';
 
 
-  angular.module('SimpleTabs')
+  angular.module('SimpleTabs', [])
     .factory('sTabs', TabFactory)
     .directive('sToggleTab', ToggleTabClass)
     .directive('sTab', TabClass);

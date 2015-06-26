@@ -4,6 +4,8 @@
   describe("Factory: sTabs", function() {
     var sTabs;
 
+    beforeEach(module('SimpleTabs'));
+
     beforeEach(inject(function($injector) {
       sTabs = $injector.get('sTabs');
     }));

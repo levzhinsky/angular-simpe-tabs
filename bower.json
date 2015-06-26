@@ -1,0 +1,13 @@
+{
+  "name": "simple-tabs",
+  "version": "0.1.0",
+  "main": [
+    "./dist/simple-tabs.js"
+  ],
+  "dependencies": {
+    "angular": "~1"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1"
+  }
+}

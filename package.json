@@ -1,0 +1,24 @@
+{
+  "name": "angular-simple-tabs",
+  "version": "0.1.0",
+  "description": "Module for simple tabs",
+  "author": "Oleksii Levzhynskyi",
+  "license": "MIT",
+  "main": "dist/simple-tabs.js",
+  "directories": {
+    "dist": "dist",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "devDependencies": {
+    "karma": "~0.12.0",
+    "karma-jasmine": "~0.1.0",
+    "karma-chrome-launcher": "~0.1.0",
+  },
+  "scripts": {
+    "test": "karma start --single-run --no-auto-watch"
+  }
+}
