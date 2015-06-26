@@ -1,5 +1,5 @@
 {
-  "name": "simple-tabs",
+  "name": "angular-simple-tabs",
   "version": "0.1.0",
   "main": [
     "./dist/simple-tabs.js"
