@@ -12,7 +12,7 @@
 
     function _apply(name, action) {
       if (['show', 'hide', 'toggle'].indexOf(action) === -1) {
-        console.warn('RTabs: action [' + action + '] not implemented!');
+        console.warn('STabs: action [' + action + '] not implemented!');
       } else {
         if (tabs[name]) {
           tabs[name].map(function (el) {
@@ -54,7 +54,7 @@
       restrict: 'A',
       link: function(scope, element, attrs) {
         element.on('click', function () {
-          RTabs.toggle(attrs.rToggleTab);
+          sTabs.toggle(attrs.sToggleTab);
         });
       }
     };
@@ -64,9 +64,9 @@
     return {
       restrict: 'A',
       link: function(scope, element, attrs) {
-        RTabs.add(attrs.rTab, element);
-        if (!attrs.hasOwnProperty('rTabExpanded')) {
-          RTabs.hide(attrs.rTab);
+        sTabs.add(attrs.sTab, element);
+        if (!attrs.hasOwnProperty('sTabExpanded')) {
+          sTabs.hide(attrs.sTab);
         }
       }
     };
